@@ -114,7 +114,7 @@
   top: 0;
 }
 /* LandingPage.css */
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 768px) {
   .content {
     flex-direction: column;
     align-items: center;
@@ -123,15 +123,16 @@
   }
 
   .landing_content {
-    margin-top: 100px; /* Adjust as needed */
-    margin-left: 0;
-    width: 80%; /* Adjust as needed */
+    margin-top: 90px; /* Adjust as needed */
+    margin-left: 5px;
+    width: 70%; /* Adjust as needed */
     text-align: center;
   }
 
   .aboutus_container {
     margin-top: 20px; /* Adjust as needed */
-    width: 80%; /* Adjust as needed */
+    margin-right: 5px;
+    width: 70%; /* Adjust as needed */
   }
 }
 
