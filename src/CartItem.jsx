@@ -67,7 +67,6 @@ const CartItem = ({ onContinueShopping }) => {
           >
             Continue Shopping
           </button>
-          <div></div>
         <div className="cart-buttons">
           <button
             className="cart-button checkout-button"

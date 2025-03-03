@@ -200,6 +200,11 @@
     .cart-item-quantity {
       margin-top: 10px; /* Add margin top for spacing */
     }
+
+    .cart-buttons {
+      flex-direction: column;
+      gap: 10px;
+    }
   }
   
 
@@ -246,4 +251,10 @@
   
   .checkout-button:hover {
     background-color: #007bb5;
+  }
+
+  .cart-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
   }
