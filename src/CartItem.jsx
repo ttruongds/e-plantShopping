@@ -4,37 +4,47 @@ import { removeItem, updateQuantity } from './CartSlice';
 import './CartItem.css';
 
 const CartItem = ({ onContinueShopping }) => {
-  const cart = useSelector(state => state.cart.items);
+  const cart = useSelector((state) => state.cart.items);
   const dispatch = useDispatch();
 
   // Calculate total amount for all products in the cart
   const calculateTotalAmount = () => {
-    return cart.reduce((total, item) => total + Number(item.cost.substring(1)) * item.quantity, 0);
+    return cart
+      .reduce((total, item) => {
+        const itemCost = parseFloat(item.cost.replace('$', ''));
+        return total + item.quantity * itemCost;
+      }, 0)
+      .toFixed(2);
   };
 
-  const handleContinueShopping = (e) => {
-    onContinueShopping(e);
+  // Calculate total cost for a single item
+  const calculateTotalCost = (item) => {
+    const itemCost = parseFloat(item.cost.replace('$', ''));
+    return (item.quantity * itemCost).toFixed(2);
   };
 
-  const handleCheckoutShopping = (e) => {
-    alert('This is just a demo, not a real plant buying webpate. Hence, checkout is not enabled.');
-  };
-
+  // Increment the quantity of an item
   const handleIncrement = (item) => {
     dispatch(updateQuantity({ name: item.name, quantity: item.quantity + 1 }));
   };
 
+  // Decrement the quantity of an item
   const handleDecrement = (item) => {
-    dispatch(updateQuantity({ name: item.name, quantity: item.quantity - 1 }));
+    if (item.quantity > 1) {
+      dispatch(updateQuantity({ name: item.name, quantity: item.quantity - 1 }));
+    } else {
+      handleRemove(item);
+    }
   };
 
+  // Remove an item from the cart
   const handleRemove = (item) => {
-    dispatch(removeItem(item));
+    dispatch(removeItem({ name: item.name }));
   };
 
-  // Calculate total cost based on quantity for an item
-  const calculateTotalCost = (item) => {
-    return Number(item.cost.substring(1)) * item.quantity;
+  // Checkout handler (placeholder)
+  const handleCheckoutShopping = () => {
+    alert('Functionality to be added for future reference');
   };
 
   return (
