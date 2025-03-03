@@ -318,7 +318,22 @@ function ProductList() {
                                         <div className="product-title">{plant.name}</div>
                                         <div className="product-description">{plant.description}</div>
                                         <div className="product-cost">{plant.cost}</div>
-                                        <button style={{backgroundColor:alreadyInCart(plant.name)?"gray":"#615EFC"}} disabled={alreadyInCart(plant.name)? true:false} onClick={()=>handleAddToCart({name:plant.name,cost:plant.cost,image:plant.image})} className='product-button'>Add to Cart</button>
+                                        <button
+                                                className={`product-button ${isPlantInCart(plant.name)
+                                                    ? 'added-to-cart'
+                                                    : ''
+                                                    }`}
+                                                onClick={() =>
+                                                    handleAddToCart(plant)
+                                                }
+                                                disabled={isPlantInCart(
+                                                    plant.name
+                                                )}
+                                            >
+                                                {isPlantInCart(plant.name)
+                                                    ? 'Added to Cart'
+                                                    : 'Add to Cart'}
+                                            </button>
                                     </div>
                                 ))}
                             </div>

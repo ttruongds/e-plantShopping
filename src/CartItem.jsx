@@ -16,7 +16,9 @@ const CartItem = ({ onContinueShopping }) => {
     onContinueShopping(e);
   };
 
-
+  const handleCheckoutShopping = (e) => {
+    alert('This is just a demo, not a real plant buying webpate. Hence, checkout is not enabled.');
+  };
 
   const handleIncrement = (item) => {
     dispatch(updateQuantity({ name: item.name, quantity: item.quantity + 1 }));
@@ -60,6 +62,7 @@ const CartItem = ({ onContinueShopping }) => {
       <div style={{ marginTop: '20px', color: 'black' }} className='total_cart_amount'></div>
       <div className="continue_shopping_btn">
         <button className="get-started-button" onClick={(e) => handleContinueShopping(e)}>Continue Shopping</button>
+        <button className="cart-button checkout-button" onClick={handleCheckoutShopping}>Checkout</button>
         <br />
         <button className="get-started-button1">Checkout</button>
       </div>
