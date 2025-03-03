@@ -15,14 +15,13 @@ function ProductList() {
         0
     );
 
-    const alreadyInCart = (itemName) => {
-        return cartItems.some((item) => item.name === itemName);
-    }
+    const handleAddToCart = (plant) => {
+        dispatch(addItem({ ...plant, quantity: 1 }));
+    };
 
-    const handleAddToCart = (item) => {
-        console.log("clicked");
-        dispatch(addItem(item));
-    }
+    const isPlantInCart = (plantName) => {
+        return cartItems.some((item) => item.name === plantName);
+    };
 
 
     const plantsArray = [
