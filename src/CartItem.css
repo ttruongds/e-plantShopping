@@ -219,6 +219,9 @@
 .continue_shopping_btn{
   margin-top: -50px;
 }
+.checkout_shopping_btn{
+  margin-top: -50px;
+}
    @media (max-width: 768px) {
     .cart-container {
       padding: 10px; /* Reduce padding */
