@@ -15,6 +15,9 @@ function ProductList() {
         0
     );
 
+    const alreadyInCart = (itemName) => {
+        return cartItems.some((item) => item.name === itemName);
+    }
 
 
     const plantsArray = [
