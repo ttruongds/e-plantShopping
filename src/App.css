@@ -58,16 +58,16 @@
 }
 
 .content h1 {
-  font-size: 40px;
+  font-size: 48px;
   margin-bottom: 10px;
 }
 
 .content p {
-  font-size: 20px;
+  font-size: 25px;
 }
 
 .divider {
-  width: 10px;
+  width: 50px;
   height: 2px;
   background-color: #4caf50;
   margin: 10px 0;
@@ -75,7 +75,7 @@
 
 .get-started-button {
   padding: 15px 25px;
-  font-size: 20px;
+  font-size: 23px;
   border: none;
   border-radius: 5px;
   background-color: #4caf50;
@@ -114,7 +114,7 @@
   top: 0;
 }
 /* LandingPage.css */
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 768px) {
   .content {
     flex-direction: column;
     align-items: center;
@@ -123,28 +123,25 @@
   }
 
   .landing_content {
-    margin-top: 90px; /* Adjust as needed */
-    margin-left: 10px;
-    margin-right: 10px;
-    width: 10%; /* Adjust as needed */
+    margin-top: 100px; /* Adjust as needed */
+    margin-left: 0;
+    width: 80%; /* Adjust as needed */
     text-align: center;
   }
 
   .aboutus_container {
     margin-top: 20px; /* Adjust as needed */
-    margin-right: 10px;
-    margin-left: 10px;
-    width: 10%; /* Adjust as needed */
+    width: 80%; /* Adjust as needed */
   }
 }
 
 @media screen and (max-width: 480px) {
   .landing_content {
-    margin-top: 35px; /* Adjust as needed */
-    width: 10%; /* Adjust as needed */
+    margin-top: 50px; /* Adjust as needed */
+    width: 90%; /* Adjust as needed */
   }
 
   .aboutus_container {
-    width: 10%; /* Adjust as needed */
+    width: 90%; /* Adjust as needed */
   }
 }
