@@ -219,8 +219,8 @@
 .continue_shopping_btn{
   margin-top: -50px;
 }
-.checkout_shopping_btn{
-  margin-top: -50px;
+.checkout-button {
+  background-color: #008cba;
 }
    @media (max-width: 768px) {
     .cart-container {
