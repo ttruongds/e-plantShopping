@@ -217,7 +217,7 @@
     font-weight: 900;
    }
    .cart-button {
-    padding: 15px 20px;
+    padding: 10px 20px;
     font-size: 25px;
     border: none;
     border-radius: 5px;
@@ -232,7 +232,7 @@
   }
   
   .checkout-button {
-    padding: 15px 20px;
+    padding: 10px 20px;
     font-size: 25px;
     border: none;
     border-radius: 5px;
