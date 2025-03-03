@@ -60,12 +60,20 @@ const CartItem = ({ onContinueShopping }) => {
         ))}
       </div>
       <div style={{ marginTop: '20px', color: 'black' }} className='total_cart_amount'></div>
-      <div className="continue_shopping_btn">
-        <button className="get-started-button1" onClick={(e) => handleContinueShopping(e)}>Continue Shopping</button>
-      </div>
-      <div className="checkout_btn">
-        <button className="checkout-button" onClick={handleCheckoutShopping}>Checkout</button>
-      </div>
+      <div className="cart-buttons">
+          <button
+            className="cart-button"
+            onClick={onContinueShopping}
+          >
+            Continue Shopping
+          </button>
+          <button
+            className="cart-button checkout-button"
+            onClick={handleCheckoutShopping}
+          >
+            Checkout
+          </button>
+        </div>
     </div>
   );
 };
