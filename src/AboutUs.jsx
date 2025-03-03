@@ -1,5 +1,6 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import './AboutUs.css';
+import { useDispatch } from 'react-redux';
 
 function AboutUs() {
   return (
