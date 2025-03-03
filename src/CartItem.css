@@ -238,3 +238,9 @@
   .checkout-button:hover {
     background-color: #007bb5;
   }
+
+  .cart-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
