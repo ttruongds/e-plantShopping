@@ -17,7 +17,7 @@ const CartItem = ({ onContinueShopping }) => {
   };
 
   const handleCheckoutShopping = (e) => {
-    alert('This is just a demo, not a real plant buying webpate. Hence, checkout is not enabled.');
+    alert('This is just a demo. Checkout not enabled.');
   };
 
   const handleIncrement = (item) => {
@@ -67,6 +67,8 @@ const CartItem = ({ onContinueShopping }) => {
           >
             Continue Shopping
           </button>
+          <div></div>
+        <div className="cart-buttons">
           <button
             className="cart-button checkout-button"
             onClick={handleCheckoutShopping}
@@ -74,6 +76,7 @@ const CartItem = ({ onContinueShopping }) => {
             Checkout
           </button>
         </div>
+      </div>
     </div>
   );
 };
