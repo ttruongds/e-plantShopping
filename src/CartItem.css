@@ -218,7 +218,7 @@
    }
    .cart-button {
     padding: 5px 10px;
-    font-size: 12px;
+    font-size: 10px;
     border: none;
     border-radius: 5px;
     background-color: #4caf50;
@@ -228,19 +228,20 @@
   }
   
   .cart-button:hover {
-    background-color: #45a049;
+    background-color: #007bb5;
   }
   
   .checkout-button {
-    background-color: #008cba;
+    padding: 5px 10px;
+    font-size: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #4caf50;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
   }
   
   .checkout-button:hover {
     background-color: #007bb5;
-  }
-
-  .cart-buttons {
-    display: flex;
-    justify-content: center;
-    gap: 20px;
   }
