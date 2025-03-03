@@ -38,6 +38,7 @@
 
 .landing_content {
  margin-top: 430px;
+ margin: 0 auto;
   margin-left: 100px;
   transform: translate(-50%, -50%);
   z-index: 1;
