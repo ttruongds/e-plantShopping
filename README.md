@@ -7,9 +7,9 @@ Visit site at: https://ttruongds.github.io/e-plantShopping/
 This project is done a part of the IBM Full stack software developer course. 
 
 ## Technologies used
-Frontend: React, Redux
-Build Tool: Vite
-Styling: CSS (responsive and modern styling)
-State Management: Redux Toolkit
+- Frontend: React, Redux
+- Build Tool: Vite
+- Styling: CSS (responsive and modern styling)
+- State Management: Redux Toolkit
 
 
