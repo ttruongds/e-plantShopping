@@ -255,6 +255,12 @@ function ProductList() {
         e.preventDefault();
         setShowCart(true); // Set showCart to true when cart icon is clicked
     };
+    const handleIconClick = (e) => {
+        e.preventDefault();
+        setshowAboutUs(true)
+        setShowPlants(false);
+        setShowCart(false); // Set showCart to true when cart icon is clicked
+    };
     const handlePlantsClick = (e) => {
         e.preventDefault();
         setShowPlants(true); // Set showAboutUs to true when "About Us" link is clicked
@@ -279,7 +285,7 @@ function ProductList() {
                 <div className="tag">
                     <div className="luxury">
                         <img src="https://cdn.pixabay.com/photo/2020/08/05/13/12/eco-5465432_1280.png" alt="" />
-                        <a href="#" onClick={(e) => handleCartClick(e)} style={{ textDecoration: 'none' }}>
+                        <a href="#" onClick={(e) => handleIconClick(e)} style={{ textDecoration: 'none' }}>
                             <div>
                                 <h3 style={{ color: 'white' }}>ABC plant shopping</h3>
                                 <i style={{ color: 'white' }}>Where Green Meets Serenity</i>
