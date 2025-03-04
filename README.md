@@ -12,4 +12,4 @@ Visit site at: https://ttruongds.github.io/e-plantShopping/
 
 ## Disclaimer
 This project was completed as part of the IBM Full Stack Software Developer course. All functionalities and additional designs were implemented by Thuyen Truong. <br>
-Feel free to reuse my code for your work. I would be appreciate if you could give me a star if you find this work useful. 
+Feel free to reuse my code in your projects. I would appreciate it if you could give it a star if you find this work useful. :)
