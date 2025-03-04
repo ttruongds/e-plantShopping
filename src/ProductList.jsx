@@ -257,7 +257,6 @@ function ProductList() {
     };
     const handleIconClick = (e) => {
         e.preventDefault();
-        setshowAboutUs(true)
         setShowPlants(false);
         setShowCart(false); // Set showCart to true when cart icon is clicked
     };
