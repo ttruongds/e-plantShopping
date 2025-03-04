@@ -1,10 +1,8 @@
 # ABC Plant shop
-Welcome to ABC Plant shop. 
-This is a simple website built using React which allows user interact with the page to view select variaties of plants, add to cart, and check the price.
+Welcome to ABC Plant shop. <br>
+This is a simple demo website built using React. <br>
+This application allows users to interact with the page to view and select variaties of plants, add to cart, and check the price. <br>
 Visit site at: https://ttruongds.github.io/e-plantShopping/
-
-## Disclaimer
-This project is done a part of the IBM Full stack software developer course. 
 
 ## Technologies used
 - Frontend: React, Redux
@@ -12,4 +10,6 @@ This project is done a part of the IBM Full stack software developer course.
 - Styling: CSS (responsive and modern styling)
 - State Management: Redux Toolkit
 
-
+## Disclaimer
+This project was completed as part of the IBM Full Stack Software Developer course. All functionalities and additional designs were implemented by Thuyen Truong. <br>
+Feel free to reuse my code for your work. I would be appreciate if you could give me a star if you find this work useful. 
