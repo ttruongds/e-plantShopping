@@ -1,9 +1,7 @@
 
 import React, { useState } from 'react';
 import ProductList from './ProductList';
-//import './App.css';
-import './assets/bootstrap/css/bootstrap-responsive.min.css';
-import './assets/bootstrap/css/bootstrap.min.css';
+import './App.css';
 import AboutUs from './AboutUs';
 
 function App() {
@@ -15,11 +13,11 @@ function App() {
   };
 
   return (
-    <div className="container">
+    <div className="app-container">
       <div className={`landing-page ${showProductList ? 'fade-out' : ''}`}>
         <div className="background-image"></div>
-        <div class="container">
-         <div className="container">
+        <div className="content">
+         <div className="landing_content">
          <h1>Welcome To ABC plants!</h1>
           <div className="divider"></div>
           <p>Where Green Meets Serenity</p>
@@ -28,7 +26,7 @@ function App() {
             Get Started
           </button>
          </div>
-          <div className="container">
+          <div className="aboutus_container">
           <AboutUs/>
           </div>
           </div>
