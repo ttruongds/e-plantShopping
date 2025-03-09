@@ -13,11 +13,11 @@ function App() {
   };
 
   return (
-    <div className="app-container">
+    <div className="container">
       <div className={`landing-page ${showProductList ? 'fade-out' : ''}`}>
         <div className="background-image"></div>
         <div class="container">
-         <div className="landing_content">
+         <div className="container">
          <h1>Welcome To ABC plants!</h1>
           <div className="divider"></div>
           <p>Where Green Meets Serenity</p>
@@ -26,7 +26,7 @@ function App() {
             Get Started
           </button>
          </div>
-          <div className="aboutus_container">
+          <div className="container">
           <AboutUs/>
           </div>
           </div>
