@@ -152,7 +152,7 @@
   }
 }
 
-@media screen and (max-width: 414px) {
+@media screen and (max-width: 200px) {
   .landing_content {
     margin-top: 10px; /* Adjust as needed */
     width: 100%; /* Adjust as needed */
