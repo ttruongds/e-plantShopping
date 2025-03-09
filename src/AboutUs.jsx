@@ -4,8 +4,7 @@ import { useDispatch } from 'react-redux';
 
 function AboutUs() {
   return (
-    /*<div className="about-us-container">*/
-    <div class="container">
+    <div className="about-us-container">
       {/* <h1 className="about-us-heading">About Us</h1> */}
       <p className="about-us-description">Welcome to ABC Plants</p>
       <p className="about-us-content">
