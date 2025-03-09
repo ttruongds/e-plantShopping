@@ -169,6 +169,13 @@
 }
 
 @media screen and (max-width: 360px) {
+  .app-container {
+    /*width: 90%;*/
+    margin-top: 50px; /* Adjust as needed */
+    margin-left: 100px;
+    display: flex;
+    width: 30%;
+  }
   .landing_content {
     margin-top: 100px; /* Adjust as needed */
     margin-left: 100px;
