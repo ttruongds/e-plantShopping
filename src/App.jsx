@@ -16,8 +16,6 @@ function App() {
 
   return (
     <div className="container my-5">
-      <div style="margin-bottom: 20px;"></div>
-
       <div className="p-5 text-center bg-body-tertiary rounded-3">
         
         <h1 className="text-body-emphasis">Welcome To ABC plants!</h1>
