@@ -13,31 +13,28 @@ function App() {
   };
 
   return (
-    <div className="hero-unit">
-      <div className={`landing-page ${showProductList ? 'fade-out' : ''}`}>
-        <div className="background-image"></div>
-        <div className="content">
-         <div className="landing_content">
-         <h1>Welcome To ABC plants!</h1>
-          <div className="divider"></div>
-          <p>Where Green Meets Serenity</p>
-         
-          <button className="get-started-button" onClick={handleGetStartedClick}>
+    <div className="container py-5">
+      <div className={`landing-page ${showProductList ? 'd-none' : ''}`}>
+        <div className="position-relative text-center bg-light p-5 rounded shadow">
+          <h1 className="display-4">Welcome To ABC Plants!</h1>
+          <hr className="my-4" />
+          <p className="lead">Where Green Meets Serenity</p>
+          <button className="btn btn-success btn-lg" onClick={handleGetStartedClick}>
             Get Started
           </button>
-         </div>
-          <div className="row">
-          <AboutUs/>
+        </div>
+        <div className="row mt-4">
+          <div className="col">
+            <AboutUs />
           </div>
-          </div>
-
+        </div>
       </div>
-      <div className={`product-list-container ${showProductList ? 'visible' : ''}`}>
+      <div className={`product-list-container ${showProductList ? 'd-block' : 'd-none'}`}>
         <ProductList />
       </div>
     </div>
   );
-}
+};
 
 export default App;
 
