@@ -144,10 +144,12 @@
 @media screen and (max-width: 480px) {
   .app-container {
     /*width: 90%;*/
-    margin-top: 10px;     width: 100%;
+    margin-top: 10px; 
+    width: 100%;
   }
   .landing_content {
     margin-top: 50px; /* Adjust as needed */
+    margin-left: 100px;
     width: 100%; /* Adjust as needed */
   }
 
@@ -156,15 +158,11 @@
   }
 }
 
-@media screen and (max-width: 50px) {
-  .app-container {
-    /*width: 90%;*/
-    margin-top: 10px; 
-    width: 50%;
-  }
+@media screen and (max-width: 414px) {
   .landing_content {
-    margin-top: 10px; /* Adjust as needed */
-    width: 30%; /* Adjust as needed */
+    margin-top: 50px; /* Adjust as needed */
+    margin-left: 100px;
+    width: 50%; /* Adjust as needed */
   }
 
   .aboutus_container {
