@@ -17,7 +17,7 @@ function App() {
   return (
     <div className="container my-5">
       <div class="jumbotron">
-        <h1 className="landing_content">Welcome To ABC plants!</h1>
+        <h1 className="text-body-emphasis">Welcome To ABC plants!</h1>
         
         <p className="col-lg-8 mx-auto fs-5 text-muted">
           Where Green Meets Serenity
@@ -28,7 +28,9 @@ function App() {
             Get Started
           </button>
         </div>
+        <div className="background-image"></div>
       </div>
+
       <div className={`product-list-container ${showProductList ? 'visible' : ''}`}>
         <ProductList />
       </div>
