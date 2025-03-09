@@ -17,7 +17,7 @@ function App() {
   return (
     <div className="container my-5">
       <div class="jumbotron">
-        <h1 className="text-body-emphasis">Welcome To ABC plants!</h1>
+        <h1 className="text-white text-center">Welcome To ABC plants!</h1>
         
         <p className="col-lg-8 mx-auto fs-5 text-muted">
           Where Green Meets Serenity
@@ -28,7 +28,7 @@ function App() {
             Get Started
           </button>
         </div>
-        <div className="text-body-emphasis">
+        <div className="text-white text-center">
           <AboutUs/>
         </div>
       </div>
