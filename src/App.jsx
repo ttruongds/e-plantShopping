@@ -16,7 +16,7 @@ function App() {
 
   return (
     <div className="container my-5">
-      <div className="p-5 text-center bg-body-tertiary rounded-3">
+      <div class="jumbotron">
         
         <h1 className="text-body-emphasis">Welcome To ABC plants!</h1>
         
