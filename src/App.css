@@ -158,7 +158,7 @@
   }
 }
 
-@media screen and (max-width: 414) {
+@media screen and (max-width: 414px) {
   .app-container {
     /*width: 90%;*/
     margin-top: 10px; 
