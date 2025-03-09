@@ -145,11 +145,15 @@
   .app-container {
     /*width: 90%;*/
     margin-top: 10px; 
+    display: flex;
     width: 100%;
   }
   .landing_content {
     margin-top: 50px; /* Adjust as needed */
     margin-left: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 100%; /* Adjust as needed */
   }
 
@@ -160,6 +164,9 @@
 
 @media screen and (max-width: 360px) {
   .landing_content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 90%; /* Adjust as needed */
   }
 
