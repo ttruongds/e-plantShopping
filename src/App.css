@@ -1,3 +1,9 @@
+.app-container {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
 /* LandingPage.css */
 * {
   margin: 0;
