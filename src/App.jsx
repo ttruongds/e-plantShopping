@@ -18,7 +18,7 @@ function App() {
       <div className={`landing-page ${showProductList ? 'fade-out' : ''}`}>
         <div className="background-image"></div>
         <div className="content">
-         <div className="landing_content">
+         <div class="container">
          <h1>Welcome To ABC plants!</h1>
           <div className="divider"></div>
           <p>Where Green Meets Serenity</p>
