@@ -32,24 +32,11 @@ function App() {
           </button>
         </div>
       </div>
+
+      <div className={`product-list-container ${showProductList ? 'visible' : ''}`}>
+        <ProductList />
+      </div>
     </div>
-
-    // <div className="container">
-    //   <div style="margin-bottom: 20px;"></div>
-    //   <div class="hero-unit">
-    //     <h1>Welcome To ABC plants!</h1>
-    //     <p>Where Green Meets Serenity</p>
-    //     <p>
-    //       <button className="btn btn-primary btn-large" onClick={handleGetStartedClick}>
-    //         Get Started
-    //       </button>
-    //     </p>
-    //   </div>
-
-    //   <div className={`product-list-container ${showProductList ? 'visible' : ''}`}>
-    //     <ProductList />
-    //   </div>
-    // </div>
   );
 }
 
