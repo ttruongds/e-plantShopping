@@ -1,7 +1,7 @@
 
 import React, { useState } from 'react';
 import ProductList from './ProductList';
-import './App.css';
+//import './App.css';
 import './assets/bootstrap/css/bootstrap-responsive.min.css';
 import './assets/bootstrap/css/bootstrap.min.css';
 import AboutUs from './AboutUs';
