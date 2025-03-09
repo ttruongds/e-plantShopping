@@ -16,14 +16,14 @@ function App() {
 
   return (
     <div className="container">
-      <div>
+      <div class="hero-unit">
         <h1>Welcome To ABC plants!</h1>
-        <div className="divider"></div>
         <p>Where Green Meets Serenity</p>
-         
-        <button className="get-started-button" onClick={handleGetStartedClick}>
-          Get Started
-        </button>
+        <p>
+          <button className="btn btn-primary btn-large" onClick={handleGetStartedClick}>
+            Get Started
+          </button>
+        </p>
       </div>
 
       <div className={`product-list-container ${showProductList ? 'visible' : ''}`}>
