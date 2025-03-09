@@ -3,8 +3,6 @@ import React, { useState } from 'react';
 import ProductList from './ProductList';
 import './App.css';
 import AboutUs from './AboutUs';
-import './assets/bootstrap/css/bootstrap-responsive.min.css';
-import './assets/bootstrap/css/bootstrap.min.css';
 
 function App() {
   
@@ -15,8 +13,8 @@ function App() {
   };
 
   return (
-    <div class="container">
-      <div class={`hero-unit ${showProductList ? 'fade-out' : ''}`}>
+    <div className="hero-unit">
+      <div className={`landing-page ${showProductList ? 'fade-out' : ''}`}>
         <div className="background-image"></div>
         <div className="content">
          <div className="landing_content">
@@ -28,7 +26,7 @@ function App() {
             Get Started
           </button>
          </div>
-          <div class="row">
+          <div className="row">
           <AboutUs/>
           </div>
           </div>
