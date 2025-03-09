@@ -28,7 +28,9 @@ function App() {
             Get Started
           </button>
         </div>
-        
+        <div className="aboutus_container">
+          <AboutUs/>
+        </div>
       </div>
 
       <div className={`product-list-container ${showProductList ? 'visible' : ''}`}>
