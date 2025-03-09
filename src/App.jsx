@@ -2,8 +2,8 @@
 import React, { useState } from 'react';
 import ProductList from './ProductList';
 import './App.css';
-import './assets/boostrap/css/bootstrap-responsive.min.css';
-import './assets/boostrap/css/bootstrap.min.css';
+import './assets/bootstrap/css/bootstrap-responsive.min.cs';
+import './assets/bootstrap/css/bootstrap.min.cs';
 import AboutUs from './AboutUs';
 
 function App() {
