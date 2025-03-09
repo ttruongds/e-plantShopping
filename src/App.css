@@ -153,13 +153,19 @@
 }
 
 @media screen and (max-width: 200px) {
+  .app-container {
+    /*width: 90%;*/
+    margin-top: 10px; 
+    margin: 0 auto;
+    width: 50%;
+  }
   .landing_content {
     margin-top: 10px; /* Adjust as needed */
-    width: 100%; /* Adjust as needed */
+    width: 50%; /* Adjust as needed */
   }
 
   .aboutus_container {
     margin-top: 100px;
-    width: 100%; /* Adjust as needed */
+    width: 50%; /* Adjust as needed */
   }
 }
