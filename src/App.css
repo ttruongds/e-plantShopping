@@ -144,10 +144,22 @@
 @media screen and (max-width: 480px) {
   .landing_content {
     margin-top: 50px; /* Adjust as needed */
-    width: 90%; /* Adjust as needed */
+    width: 70%; /* Adjust as needed */
   }
 
   .aboutus_container {
-    width: 90%; /* Adjust as needed */
+    width: 70%; /* Adjust as needed */
+  }
+}
+
+@media screen and (max-width: 414px) {
+  .landing_content {
+    margin-top: 10px; /* Adjust as needed */
+    width: 30%; /* Adjust as needed */
+  }
+
+  .aboutus_container {
+    margin-top: 50px;
+    width: 30%; /* Adjust as needed */
   }
 }
