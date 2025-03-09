@@ -159,14 +159,18 @@
 }
 
 @media screen and (max-width: 414px) {
+  .content {
+    flex-direction: column;
+    align-items: center;
+  }
   .landing_content {
     margin-top: 50px; /* Adjust as needed */
     margin-left: 100px;
-    width: 50%; /* Adjust as needed */
+    width: 100%; /* Adjust as needed */
   }
 
   .aboutus_container {
     margin-top: 100px;
-    width: 50%; /* Adjust as needed */
+    width: 100%; /* Adjust as needed */
   }
 }
