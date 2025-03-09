@@ -28,7 +28,7 @@ function App() {
             Get Started
           </button>
         </div>
-        <div className="background-image"></div>
+        
       </div>
 
       <div className={`product-list-container ${showProductList ? 'visible' : ''}`}>
