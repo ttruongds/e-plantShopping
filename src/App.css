@@ -5,6 +5,12 @@
   align-items: center;
 }
 
+.row {
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
+  }
+
 
 .background-image {
   position: absolute;
