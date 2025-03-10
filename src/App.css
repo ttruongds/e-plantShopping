@@ -3,8 +3,20 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #f8f8f8;
-  
+  /*background-color: #f8f8f8;*/
+  background: url('https://cdn.pixabay.com/photo/2017/07/13/08/59/greenhouse-2499758_1280.jpg');
+}
+
+.jumbotron::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.4); /* Slight dark overlay for better text readability */
+  backdrop-filter: blur(10px); /* Blurring the background */
+  z-index: -1; /* Ensure the blur effect is behind the content */
 }
 
 .row {

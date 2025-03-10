@@ -16,7 +16,7 @@ function App() {
 
   return (
     <div className="container my-5">
-      <div class="jumbotron ${showProductList ? 'fade-out' : ''}">
+      <div class={"jumbotron ${showProductList ? 'fade-out' : ''}"}>
         <div class="row">
           <div class="col-lg-8 mb-md-0 mb-3">
               <h1 className="text-center">Welcome To ABC plants!</h1>
