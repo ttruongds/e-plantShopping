@@ -20,7 +20,7 @@ function App() {
         <div class="col-md-6">
           <h1 className="landing_content">Welcome To ABC plants!</h1>
           
-          <p className="col-lg-8 mx-auto fs-5 text-muted">
+          <p className="content">
             Where Green Meets Serenity
           </p>
           
@@ -31,7 +31,7 @@ function App() {
           </div>
         </div>
         <div class="col-md-6">
-          <div className="text-center">
+          <div className="content">
             <AboutUs/>
           </div>
         </div>
