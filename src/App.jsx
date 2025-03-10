@@ -18,7 +18,7 @@ function App() {
     <div className="container mt-5">
       <div class="jumbotron">
         <div class="col-md-6">
-          <h1 className="text-center">Welcome To ABC plants!</h1>
+          <h1 className="landing_content">Welcome To ABC plants!</h1>
           
           <p className="col-lg-8 mx-auto fs-5 text-muted">
             Where Green Meets Serenity
