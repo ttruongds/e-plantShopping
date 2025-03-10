@@ -16,24 +16,20 @@ function App() {
 
   return (
     <div className="container mt-5">
-      <div class="row">
-        <div class="col-md-6">
-          <h1 className="landing_content">Welcome To ABC plants!</h1>
-          
-          <p className="content">
-            Where Green Meets Serenity
-          </p>
-          
-          <div className="d-inline-flex gap-2 mb-5">
-            <button className="d-inline-flex align-items-center btn btn-primary btn-lg px-4 rounded-pill" onClick={handleGetStartedClick}>
-              Get Started
-            </button>
-          </div>
+      <div class="jumbotron">
+        <h1 className="text-center">Welcome To ABC plants!</h1>
+        
+        <p className="col-lg-8 mx-auto fs-5 text-muted">
+          Where Green Meets Serenity
+        </p>
+        
+        <div className="d-inline-flex gap-2 mb-5">
+          <button className="d-inline-flex align-items-center btn btn-primary btn-lg px-4 rounded-pill" onClick={handleGetStartedClick}>
+            Get Started
+          </button>
         </div>
-        <div class="col-md-6">
-          <div className="content">
-            <AboutUs/>
-          </div>
+        <div className="text-center">
+          <AboutUs/>
         </div>
       </div>
 
