@@ -18,7 +18,7 @@ function App() {
     <div className="container my-5">
       <div class="jumbotron">
         <div class="row">
-          <div class="col-md-6">
+          <div class="col-lg-8 mb-md-0 mb-3">
               <h1 className="text-center">Welcome To ABC plants!</h1>
               <p className="text-center">
                 Where Green Meets Serenity
@@ -29,7 +29,7 @@ function App() {
               </button>
             </div>
           </div>
-          <div class="col-md-6">
+          <div class="col-lg-8 mb-md-0 mb-3">
               <p className="text-center">
               At ABC Plants, we are passionate about bringing nature closer to you. 
               Our mission is to provide a wide range of high-quality plants that 
