@@ -31,17 +31,7 @@ function App() {
           </div>
           <div className="divider"></div>
           <div class="col-lg-8 mb-md-0 mb-3">
-              <p className="text-center">
-              At ABC Plants, we are passionate about bringing nature closer to you. 
-              Our mission is to provide a wide range of high-quality plants that 
-              not only enhance the beauty of your surroundings but also 
-              contribute to a healthier and more sustainable lifestyle. 
-              </p>
-              <p className="text-center">
-              Join us in our mission to create a greener, healthier world. 
-              Visit ABC plants shop today and experience the 
-              beauty of nature right at your doorstep.
-            </p>
+              <AboutUs/>
           </div>
         </div>
       </div>
