@@ -21,7 +21,7 @@ function App() {
           <div class="col-md-6">
             <h1 className="text-center">Welcome To ABC plants!</h1>
             
-            <p className="col-lg-8 mx-auto fs-5 text-muted">
+            <p className="text-center">
               Where Green Meets Serenity
             </p>
             <div className="d-inline-flex gap-2 mb-5">
@@ -32,13 +32,13 @@ function App() {
           </div>
           <div class="col-md-6">
             <div>
-              <p className="col-lg-8 mx-auto fs-5 text-muted">
+              <p className="text-center">
               At ABC Plants, we are passionate about bringing nature closer to you. 
               Our mission is to provide a wide range of high-quality plants that 
               not only enhance the beauty of your surroundings but also 
               contribute to a healthier and more sustainable lifestyle. 
               </p>
-              <p className="col-lg-8 mx-auto fs-5 text-muted">
+              <p className="text-center">
               Join us in our mission to create a greener, healthier world. 
               Visit ABC plants shop today and experience the 
               beauty of nature right at your doorstep.
