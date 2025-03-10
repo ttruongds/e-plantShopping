@@ -14,8 +14,8 @@ function App() {
   };
 
   return (
-    <div className="jumbotron">
-      <div className={`landing-page ${showProductList ? 'fade-out' : ''}`}>
+    <div className="container my-5">
+      <div className={`jumbotron ${showProductList ? 'fade-out' : ''}`}>
         <div className="background-image"></div>
         <div className="content">
          <div className="landing_content">
