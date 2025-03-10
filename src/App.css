@@ -1,5 +1,6 @@
 .jumbotron {
   height: 100vh;
+  width: 100wh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -15,7 +16,7 @@
   right: 0;
   bottom: 0;
   background: rgba(0, 0, 0, 0.4); /* Slight dark overlay for better text readability */
-  backdrop-filter: blur(10px); /* Blurring the background */
+  backdrop-filter: blur(50px); /* Blurring the background */
   z-index: -1; /* Ensure the blur effect is behind the content */
 }
 
