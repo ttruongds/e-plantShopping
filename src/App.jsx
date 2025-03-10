@@ -15,7 +15,7 @@ function App() {
   };
 
   return (
-    <div className="container mt-5">
+    <div className="container my-5">
       <div class="jumbotron">
         <div class="row">
           <div class="col-md-6">
@@ -31,8 +31,18 @@ function App() {
             </div>
           </div>
           <div class="col-md-6">
-            <div className="text-center">
-              <AboutUs/>
+            <div>
+              <p className="col-lg-8 mx-auto fs-5 text-muted">
+              At ABC Plants, we are passionate about bringing nature closer to you. 
+              Our mission is to provide a wide range of high-quality plants that 
+              not only enhance the beauty of your surroundings but also 
+              contribute to a healthier and more sustainable lifestyle. 
+              </p>
+              <p className="col-lg-8 mx-auto fs-5 text-muted">
+              Join us in our mission to create a greener, healthier world. 
+              Visit ABC plants shop today and experience the 
+              beauty of nature right at your doorstep.
+            </p>
             </div>
           </div>
         </div>
