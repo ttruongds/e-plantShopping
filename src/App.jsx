@@ -16,7 +16,7 @@ function App() {
 
   return (
     <div className="container mt-5">
-      <div class="jumbotron">
+      <div class="row">
         <div class="col-md-6">
           <h1 className="landing_content">Welcome To ABC plants!</h1>
           
